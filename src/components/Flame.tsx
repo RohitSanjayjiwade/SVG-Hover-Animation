@@ -1,8 +1,5 @@
 import { RefObject, useEffect, useState } from "react";
 
-
-
-
 interface Props {
 	cursor: { x: number; y: number }
 	cardRef: RefObject<HTMLElement>
@@ -59,6 +56,8 @@ const Flame = ({ cursor, cardRef, mouseOnCard }: Props) => {
 				d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"
 			/>
 		</svg>
+
+		
 
 	)
 }
