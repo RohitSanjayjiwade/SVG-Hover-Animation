@@ -1,4 +1,5 @@
 import { CheckIcon, CircleStackIcon } from "@heroicons/react/24/outline";
+import Flame from "./components/Flame";
 
 const App = () => {
   return(
@@ -30,6 +31,11 @@ const App = () => {
               <p>Easy to extend</p>
             </span>
           </div>
+        </div>
+
+        <div className="w-3/5 flex flex-col place-items-center">
+          {/* SVG Here */}
+          <Flame />
         </div>
       </section>
     </main>
